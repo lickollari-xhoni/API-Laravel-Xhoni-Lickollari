@@ -1,6 +1,6 @@
 # 🎌 AnimeApp - Esploratore di Anime con Jikan API
 
-AnimeApp è una web application moderna sviluppata con **Laravel 11** che permette agli utenti di sfogliare un vasto database di anime. 
+AnimeApp è una web application moderna sviluppata con **Laravel 12** che permette agli utenti di sfogliare un vasto database di anime. 
 Il progetto utilizza le **API di Jikan** (MyAnimeList) per fornire dati in tempo reale su generi, titoli e dettagli tecnici.
 
 ---
@@ -32,7 +32,6 @@ Segui questi passaggi per avviare il progetto localmente:
 1. **Clona la repository**
    ```bash
    git clone [git@github.com:lickollari-xhoni/API-Laravel-Xhoni-Lickollari.git]
-   (https://github.com/tuo-username/nome-repo.git)
    cd nome-repo
 
 ## 📂 Struttura del Progetto (Punti Chiave)
