@@ -10,11 +10,15 @@
 </head>
 
 <body>
-    
-    
+
+
     <ul>
         @foreach ($results['data'] as $result)
-            <li>{{ $result['name'] }}</li>
+            <li>
+                <a href="{{ route('rotta2', ['id' => $result['mal_id']]) }}">
+                    {{ $result['name'] }} -Anime Associati:{{ $result['count'] }}
+                </a>
+            </li>
         @endforeach
     </ul>
 
