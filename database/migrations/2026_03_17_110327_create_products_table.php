@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('marca_prodotto');
             $table->text('descrizione');
             $table->string('immagine_prodotto');
-            $table->decimal('prezzo', 8, 2);
+            $table->decimal('prezzo');
             $table->timestamps();
         });
     }
